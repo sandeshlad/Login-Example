@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAEBD7"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:drawableTop="@drawable/username"
+        android:id="@+id/username"
+        app:fontFamily="@font/adamina"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:inputType="numberPassword"
+        android:drawableTop="@drawable/password"
+        android:id="@+id/password"
+        app:fontFamily="@font/adamina"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="35dp"
+        android:background="#FAEBD7"
+        android:text="Login"
+        android:textSize="25sp"
+        app:fontFamily="@font/adamina"
+
+
+        />
+
+    <TextView
+        android:id="@+id/attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Attempt"
+        android:textSize="18sp"
+        app:fontFamily="@font/adamina" />
+
+</LinearLayout>
